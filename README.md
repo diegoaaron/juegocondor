@@ -1,36 +1,25 @@
-# CRUD con JAVA SWING
+# Juego Runner con GODOT
 
-Un CRUD completo utilizando JAVA SWING & SQLITE (incluye la BD)
-
-Este ejemplo prático implemento:
-
-- Una JFrame principal que engloba toda las funciones
-- Un JInternalFrame para cada una de las acciones
-- Organización del código utilizando el patron de diseño MVC
+Sencillo juego Runner en donde un condor debe destruir enemigos para obtener el máximo puntaje
 
 Herramientas utilizadas:
 
-- [SQlite](#)
-- [Eclipse 2024-09](#)
-- [DB Broswser](#)
-- [Java 17](#)
-- [Indicaciones para crear Jframes](images/indicaciones_jframe.txt)
+- [Godot 4.2.1](#)
+- [GIMP 2.10](#)
 
 ### Estructura del proyecto
 
 ```
-|- lib/                                  // Jar de SQlite
-|- bd/                                   // directorio con la base de datos
-|- src/
+|- res://
 |   |
-|   |- controller/                       // Directorio con la conexión  a las acciones del modelo
-|   |- model/                            // Directorio con la conexión y codigo con las Queries hacia la BD
-|   |- view/                             // Directorio con todas las pantallas utilizadas
+|   |- assets/                       // carpeta con los recursos utilizados en el juego
+|   |- scenes/                       // carpeta con las escenas que representan cada elemento del juego
+|   |- scripts/                      // carpeta con scripts en GDscript para algunos comportamientos
 ```
 
 ---
 
-**Nota:** Para ejecutar el proyecto hay que lanzar el archivo  `.../crudswing/src/view/ProductoView.java`
+**Nota:** Para ejecutar el proyecto hay que cargar el proyecto en Godot 4.2.1
 
 ---
 
@@ -39,4 +28,8 @@ Herramientas utilizadas:
 |x|x|x|
 |---|---|---|
 |![imagen 1](images/imagen01.jpg)|![imagen 2](images/imagen02.jpg)| ![imagen 3](images/imagen03.jpg)|
-|![imagen 4](images/imagen04.jpg)|![imagen 5](images/imagen05.jpg)| ![imagen 6](images/imagen06.jpg)|
+
+
+#### Logro
+
+![logro](images/imagen01.jpg)
