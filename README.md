@@ -7,7 +7,7 @@ Herramientas utilizadas:
 - [Godot 4.2.1](#)
 - [GIMP 2.10](#)
 
-### Estructura del proyecto
+### Estructura del proyecto Vuelo Condor
 
 ```
 |- res://
@@ -19,7 +19,7 @@ Herramientas utilizadas:
 
 ---
 
-**Nota:** Para ejecutar el proyecto hay que cargar el proyecto en Godot 4.2.1
+**Nota:** La carpeta **vuelo_condor** tiene el proyecto final, la carpeta **pirata_3** tiene un ejercicio previo
 
 ---
 
@@ -32,4 +32,4 @@ Herramientas utilizadas:
 
 #### Logro
 
-![logro](images/imagen01.jpg)
+![logro](images/logro.jpg)
